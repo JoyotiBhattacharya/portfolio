@@ -24,7 +24,7 @@ export default function Hero() {
        
         <div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold mb-5 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold mb-5 leading-tight text-white">
             Hi, I’m{" "}
             <span className="bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
               Joyoti
