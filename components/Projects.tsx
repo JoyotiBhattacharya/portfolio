@@ -63,13 +63,13 @@ export default function Projects() {
     ],
 
     personal: [
-      "AI Product Finder →",
-      "Custom Dashboard →",
-      "Shopify Boilerplate →",
-      "Portfolio CMS →",
-      "Personal Build 5 →",
-      "Personal Build 6 →",
-      "Personal Build 7 →",
+      "AI Product Finder",
+      "Custom Dashboard",
+      "Shopify Boilerplate",
+      "Portfolio CMS",
+      "Personal Build 5",
+      "Personal Build 6",
+      "Personal Build 7",
     ],
   };
 
