@@ -17,7 +17,7 @@ export default function Hero() {
   });
 };
   return (
-    <section id="home" className="px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-32 sm:pt-36 md:pt-40 lg:pt-48 pb-16 sm:pb-24 md:pb-20">
+    <section id="home" className="bg-[#0A0A0A] px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-32 sm:pt-36 md:pt-40 lg:pt-48 pb-16 sm:pb-24 md:pb-20">
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
@@ -44,8 +44,8 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-10">
 
            <a
-  href="/JOYOTI_BHATTACHARYA_.pdf"
-  target="_blank"
+ href="/JOYOTI_BHATTACHARYA_.pdf"
+   download
   className="
     bg-white
     text-black
