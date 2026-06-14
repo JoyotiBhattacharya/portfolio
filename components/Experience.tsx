@@ -23,7 +23,7 @@ export default function Experience() {
   ];
 
   return (
-   <section id="experience" className="bg-black text-white xs:pt-10 px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-12 sm:pt-36 md:pt-40 lg:pt-20 pb-10 sm:pb-24 md:pb-10">
+   <section id="experience" className="bg-black text-white xs:pt-10 px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-0 sm:pt-36 md:pt-40 lg:pt-20 pb-10 sm:pb-24 md:pb-10">
 
       
       <div className="text-center mb-16">

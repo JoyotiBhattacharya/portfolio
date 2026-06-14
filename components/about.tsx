@@ -60,7 +60,7 @@ export default function About() {
 
             <div
               className="
-              w-[260px] sm:w-[320px] md:w-[380px]
+               w-full  sm:w-[320px] md:w-[380px]
               rounded-3xl
               border border-white/10
               bg-white/5
@@ -85,7 +85,7 @@ export default function About() {
           <div className="border border-white/10 rounded-2xl p-5 bg-white/5">
             <p className="text-purple-400 text-sm mb-2">Phone</p>
             <p className="text-gray-300 text-sm break-all">
-              +91 8697772264
+              +91 9088722640
             </p>
           </div>
 

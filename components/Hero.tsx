@@ -79,8 +79,8 @@ export default function Hero() {
           </div>
 
           
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-10 mt-12">
-
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-10 mt-12 place-items-center">
+           
             <div>
               <h3 className="text-xl sm:text-2xl font-bold text-white">4+</h3>
               <p className="text-sm sm:text-base text-gray-500">
@@ -101,6 +101,7 @@ export default function Hero() {
                 Powered Workflow
               </p>
             </div>
+            
 
           </div>
 

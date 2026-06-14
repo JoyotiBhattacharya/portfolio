@@ -91,7 +91,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="bg-black text-white px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-12 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-20">
+    <section id="projects" className="bg-black text-white px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-0 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-20">
       
       <div className="text-center mb-14">
         <p className="text-purple-400 tracking-[4px] uppercase text-sm">

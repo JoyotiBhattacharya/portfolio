@@ -59,7 +59,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-black overflow-hidden px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-12 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-20"
+      className="relative bg-black overflow-hidden px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-0 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-20"
     >
       {/* glow effect */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-blue-600/10 blur-[140px] rounded-full"></div>
@@ -101,7 +101,7 @@ export default function Contact() {
               <div>
                 <p className="text-purple-400">Phone</p>
                 <p className="text-gray-300">
-                  +91 8697772264
+                  +91 9088722640
                 </p>
               </div>
 

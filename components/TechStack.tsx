@@ -19,7 +19,7 @@ export default function Skills() {
   ];
 
   return (
-   <section id="skills" className="relative bg-black text-white px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-12 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-10">
+   <section id="skills" className="relative bg-black text-white px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-0 sm:pt-36 md:pt-10 lg:pt-10 pb-10 sm:pb-24 md:pb-10">
        <div className="absolute top-10 left-10 w-72 h-72 bg-blue-600/10 blur-[140px] rounded-full"></div>
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-purple-600/10 blur-[140px] rounded-full"></div>
      
