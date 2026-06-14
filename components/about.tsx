@@ -1,4 +1,21 @@
+"use client";
+
 export default function About() {
+  const goToProjects = () => {
+  const section = document.getElementById("projects");
+
+  if (!section) return;
+
+  const y =
+    section.getBoundingClientRect().top +
+    window.scrollY -
+    120;
+
+  window.scrollTo({
+    top: y,
+    behavior: "smooth",
+  });
+};
   return (
     <section
       id="about"
@@ -41,6 +58,7 @@ export default function About() {
             </p>
 
             <button
+             onClick={goToProjects}
               className="
               mt-8
               border border-purple-500

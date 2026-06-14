@@ -1,25 +1,27 @@
 export default function Experience() {
   const experienceData = [
     {
-      year: "2021",
-      title: "Adamas University",
-      desc: "Completed B.Tech in Computer Science Engineering.",
+  year: "2025 - Present",
+  title: "Webskitters",
+  desc: "Currently working on Shopify development, custom Shopify app development using Remix, advanced theme customization, API integrations and scalable eCommerce solutions.",
+},
+ {
+      year: "2023 - 2025",
+      title: "Bitpastel",
+      desc: "Started Shopify development with theme customization and custom store development.",
     },
-    {
+     {
       year: "2021 - 2023",
       title: "Ewards",
       desc: "Worked as Frontend Developer using Bootstrap, Laravel, jQuery and WordPress.",
     },
     {
-      year: "2023 - 2025",
-      title: "Bitpastel",
-      desc: "Started Shopify development with theme customization and custom store development.",
+      year: "2021",
+      title: "Adamas University",
+      desc: "Completed B.Tech in Computer Science Engineering.",
     },
-    {
-  year: "2025 - Present",
-  title: "Webskitters",
-  desc: "Currently working on Shopify development, custom Shopify app development using Remix, advanced theme customization, API integrations and scalable eCommerce solutions.",
-}
+  
+    
   ];
 
   return (

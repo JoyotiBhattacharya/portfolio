@@ -119,19 +119,28 @@ export default function Hero() {
         >
 
           <div className="text-gray-500 mb-4 text-sm sm:text-base">
-            roadmap.js
+           Tech Stack
           </div>
 
           <pre className="text-green-400 text-xs sm:text-sm leading-7 whitespace-pre-wrap">
 
-            {`const builder = {
+            {/* {`const builder = {
               mainFocus: "Shopify",
               themeDevelopment: true,
               frontend: "React",
               appDevelopment: "Node.js",
               framework: "Remix",
               aiWorkflow: true
-            }`}
+            }`} */}
+            
+
+              ✓ Shopify Development
+              ✓ Liquid Customization
+              ✓ JavaScript
+              ✓ React.js
+              ✓ Next.js
+              ✓ Tailwind CSS
+              ✓ AI Workflow Integration
 
           </pre>
 

@@ -36,40 +36,41 @@ export default function Projects() {
     ],
 
     apps: [
-      {
-        name: "Bundle Builder App",
-        link: "#",
-      },
-      {
-        name: "Subscription Management App",
-        link: "#",
-      },
+      // {
+      //   name: "Bundle Builder App",
+      //   link: "#",
+      // },
+      // {
+      //   name: "Subscription Management App",
+      //   link: "#",
+      // },
       {
         name: "Custom Blog Like App",
         link: "https://www.sososwim.com/blogs/custom-blog-features",
       },
-      {
-        name: "Advanced Discount Engine",
-        link: "#",
-      },
-      {
-        name: "Cart Optimization App",
-        link: "#",
-      },
-      {
-        name: "Internal Admin Dashboard",
-        link: "#",
-      },
+      // {
+      //   name: "Advanced Discount Engine",
+      //   link: "#",
+      // },
+      // {
+      //   name: "Cart Optimization App",
+      //   link: "#",
+      // },
+      // {
+      //   name: "Internal Admin Dashboard",
+      //   link: "#",
+      // },
     ],
 
     personal: [
-      "AI Product Finder",
-      "Custom Dashboard",
-      "Shopify Boilerplate",
-      "Portfolio CMS",
-      "Personal Build 5",
-      "Personal Build 6",
-      "Personal Build 7",
+      "Uploading Soon!"
+      // "AI Product Finder",
+      // "Custom Dashboard",
+      // "Shopify Boilerplate",
+      // "Portfolio CMS",
+      // "Personal Build 5",
+      // "Personal Build 6",
+      // "Personal Build 7",
     ],
   };
 
@@ -111,7 +112,7 @@ export default function Projects() {
             activeTab === "shopify" ? "border-purple-500" : "border-white/10"
           }`}
         >
-          Shopify Projects
+          Shopify Live Projects
         </button>
 
         <button
@@ -120,7 +121,7 @@ export default function Projects() {
             activeTab === "apps" ? "border-purple-500" : "border-white/10"
           }`}
         >
-          Custom Apps
+          Custom App
         </button>
 
         <button
