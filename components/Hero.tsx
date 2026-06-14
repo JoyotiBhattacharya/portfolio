@@ -81,21 +81,21 @@ export default function Hero() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-10 mt-12">
 
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold">4+</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">4+</h3>
               <p className="text-sm sm:text-base text-gray-500">
                 Years Experience
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold">50+</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">50+</h3>
               <p className="text-sm sm:text-base text-gray-500">
                 Projects
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold">AI</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">AI</h3>
               <p className="text-sm sm:text-base text-gray-500">
                 Powered Workflow
               </p>
