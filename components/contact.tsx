@@ -93,16 +93,22 @@ export default function Contact() {
             <div className="space-y-5">
               <div>
                 <p className="text-purple-400">Email</p>
-                <p className="text-gray-300">
-                  bhattacharyajoyoti3@gmail.com
-                </p>
+                <a
+              href="mailto:bhattacharyajoyoti3@gmail.com"
+              className="text-gray-300 text-sm break-all hover:text-purple-300 transition"
+            >
+              bhattacharyajoyoti3@gmail.com
+            </a>
               </div>
 
               <div>
                 <p className="text-purple-400">Phone</p>
-                <p className="text-gray-300">
-                  +91 9088722640
-                </p>
+                 <a
+              href="tel:+919088722640"
+              className="text-gray-300 text-sm break-all hover:text-purple-300 transition"
+            >
+              +91 9088722640
+            </a>
               </div>
 
               <div>

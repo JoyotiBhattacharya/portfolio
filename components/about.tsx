@@ -83,24 +83,35 @@ export default function About() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-14">
 
           <div className="border border-white/10 rounded-2xl p-5 bg-white/5">
-            <p className="text-purple-400 text-sm mb-2">Phone</p>
-            <p className="text-gray-300 text-sm break-all">
+           <p className="text-purple-400 text-sm mb-2">Phone</p>
+            <a
+              href="tel:+919088722640"
+              className="text-gray-300 text-sm break-all hover:text-purple-300 transition"
+            >
               +91 9088722640
-            </p>
+            </a>
           </div>
 
           <div className="border border-white/10 rounded-2xl p-5 bg-white/5">
             <p className="text-purple-400 text-sm mb-2">Email</p>
-            <p className="text-gray-300 text-sm break-all">
+            <a
+              href="mailto:bhattacharyajoyoti3@gmail.com"
+              className="text-gray-300 text-sm break-all hover:text-purple-300 transition"
+            >
               bhattacharyajoyoti3@gmail.com
-            </p>
+            </a>
           </div>
 
           <div className="border border-white/10 rounded-2xl p-5 bg-white/5">
             <p className="text-purple-400 text-sm mb-2">LinkedIn</p>
-            <p className="text-gray-300 text-xs break-all">
+            <a
+              href="http://www.linkedin.com/in/joyoti-bhattacharya-246175206"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 text-xs break-all hover:text-purple-300 transition"
+            >
               linkedin.com/in/joyoti
-            </p>
+            </a>
           </div>
 
           <div className="border border-white/10 rounded-2xl p-5 bg-white/5">
