@@ -1,0 +1,51 @@
+.about-section{
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #050505;
+}
+
+/* premium gradient overlay */
+.about-section::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0,0,0,0.95) 0%,
+    rgba(20,20,40,0.85) 45%,
+    rgba(60,0,80,0.75) 100%
+  );
+  z-index: 1;
+}
+
+/* center image */
+.about-bg-image{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.about-bg-image img{
+  height: 85vh;
+  object-fit: contain;
+  opacity: .35;
+
+  /* glow */
+  filter: drop-shadow(0 0 40px rgba(168,85,247,.35));
+}
+
+/* content */
+.about-content{
+  position: relative;
+  z-index: 5;
+}
+
+/* subtle moving effect */
+.about-bg-image img:hover{
+  transform: scale(1.02);
+  transition: 0.5s ease;
+}
