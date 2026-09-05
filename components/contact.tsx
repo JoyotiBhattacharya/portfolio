@@ -107,7 +107,7 @@ export default function Contact() {
               href="tel:+919088722640"
               className="text-gray-300 text-sm break-all hover:text-purple-300 transition"
             >
-              +91 9088722640
+              +91 8697772264
             </a>
               </div>
 

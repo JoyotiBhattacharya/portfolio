@@ -4,6 +4,7 @@ import { useState } from "react";
 export default function Projects() {
   const projectsData = {
     shopify: [
+      { name: "Strand Extensions", link: "https://strandehairextensions.com/" },
       { name: "QT Plushies", link: "https://qtplushies.com/" },
       { name: "Vivoo", link: "https://www.vivoo.io/" },
       { name: "Olive Iron", link: "https://oliveiron.com/" },
@@ -33,6 +34,8 @@ export default function Projects() {
       { name: "Indigo Interior NY", link: "https://indigointeriorny.com/" },
       { name: "Fintoes Shoes", link: "https://fintoesshoes.com/" },
       { name: "Dr Jerome Puryear", link: "https://www.drjeromepuryear.com/" },
+      { name: "Bodied", link: "https://drinkbodied.com/" },
+      { name: "Penrose Haus", link: "https://penrosehaus.com/" },
     ],
 
     apps: [
